@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "discord-mcp",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-13",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "00000000000000000000000000000000" }],
+  "vars": {
+    "ALLOWED_GUILD_IDS": "",
+    "ALLOWED_CHANNEL_IDS": "",
+    "ALLOWED_DM_CHANNEL_IDS": "",
+    "ALLOWED_DM_USER_IDS": "",
+    "ALLOWED_ORIGINS": "",
+    "ALLOWED_HOSTNAMES": "",
+    "AUTH_MODE": "oauth",
+    "PUBLIC_BASE_URL": "",
+    "OWNER_GITHUB_USER_ID": "",
+    "GITHUB_CLIENT_ID": "",
+    "CHATGPT_REDIRECT_URIS": "https://chatgpt.com/connector_platform_oauth_redirect",
+    "CHATGPT_CLIENT_METADATA_URLS": "https://chatgpt.com/oauth/client.json"
+  },
+  "observability": { "enabled": false }
+}

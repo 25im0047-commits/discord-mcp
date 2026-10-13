@@ -1,0 +1,4 @@
+# Empty by design: enter values locally yourself. Never commit .dev.vars.
+DISCORD_BOT_TOKEN=
+MCP_ACCESS_TOKEN=
+GITHUB_CLIENT_SECRET=
